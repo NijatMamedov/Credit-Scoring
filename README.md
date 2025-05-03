@@ -32,6 +32,8 @@ Features with <70% correlation between each other
 
 🚀 9. Final Variables Choose inputs (independent variables) and output (score) for the model. Done! 🤖✅
 
+
+
 🤖 Modeling the Logistic Regression Model 💥
 Time to build, train, and evaluate the model! 🚀
 
@@ -53,20 +55,29 @@ Gini coefficient 📊
 
 🎯 6. Precision & Recall We plot precision vs. recall to find the best balance point — very helpful in binary classification. ⚖️
 
+
+
 📊 Univariate Gini Analysis
 For each variable, show the Gini score on both the train and test sets. This helps identify how well each feature performs individually. 🎯
+
+
 
 📊 Selected Variables for New Model
 In the Univariate analysis, we keep variables with a Gini score above 40% from the test set and build a new model based on these selected features. 🎯
 
 
+
 🚀 Deployment with WOE
 Deploy the model on the provided prod_data_with_woe dataset! 🖥️
 
+
 📊 Predict Default Probability (PD) Use model.predict_proba() to show the probability of customers defaulting (PD). This helps predict the likelihood of default. 💡
+
 
 🚀 Deployment with Real Values
 We deploy the trained model using the provided file: test_data_real_values.xlsx 📂
+
+
 
 🔍 Predicting Default Probabilities (PD)
 For each customer in the test data, we calculate their probability of default (PD) using the model. 📉💳
