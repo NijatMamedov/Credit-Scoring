@@ -79,7 +79,7 @@ We deploy the trained model using the provided file: test_data_real_values.xlsx
 
 
 
-🔍 Predicting Default Probabilities (PD)
-For each customer in the test data, we calculate their probability of default (PD) using the model. 📉💳
+ Predicting Default Probabilities (PD)
+For each customer in the test data, we calculate their probability of default (PD) using the model. 
 
-This gives a clear view of risk levels for real-world cases! 🎯
+This gives a clear view of risk levels for real-world cases! 
